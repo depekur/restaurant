@@ -1,0 +1,213 @@
+@media only screen and (max-width: 520px) { 
+
+section.header {
+	nav {
+
+		a.header-logo {
+			float: none;
+			margin: 0 auto;
+		}
+
+		ul.header-nav {
+			display: none;
+		}
+	}
+
+	h1 {
+		width: 100%;
+		font-size: 3em;
+	}
+
+	.header-buttons {
+
+		a {
+			margin-top: 70px;
+			margin-bottom: 70px;
+
+			button {
+				width: 130px;
+			}
+		}
+	}
+}
+
+section.just-food {
+	padding: 20px;
+
+	div.just-food-left {
+		width: 100%;
+		float: none;
+
+		h2 {
+			font-size: 1.9em;
+			margin-bottom: 30px;
+		}
+
+		img {
+			display: none;
+		}
+	}
+
+	img.just-food-img {
+			width: 280px;
+			float: none;
+			display: block;
+			margin: 0 auto;
+		}
+}
+
+section.ingredients {
+	padding: 20px 0;
+
+	div.ingredients-right {
+		width: 95%;
+		float: none;
+		margin: 0 auto;
+		padding: 30px;
+
+		h2 {
+			font-size: 1.9em;
+		}
+	}
+}
+
+section.menu {
+	padding: 35px 10px;
+
+	div.menu-part {
+		display: block;
+		width: 95%;
+		margin-left: 10px;
+
+		h2 {
+			font-size: 1.6em;
+			margin-bottom: 5px;
+		}
+		li {
+			margin-bottom: 7px;
+			padding: 3px;
+		}
+
+		h4 {
+			font-size: 1.1em;
+			padding-bottom: 4px;
+			margin-bottom: 4px;
+		}
+
+		&:last-child {
+			margin-top: 0;
+		}
+	}
+}
+
+section.reviews {
+	padding: 40px 0;
+
+	div.reviews-wrap {
+		width: 95%;
+		padding: 40px;
+
+		h2 {
+			font-size: 1.9em;
+			margin-bottom: 20px; 
+		}
+
+		p {
+			font-size: 1.2em;
+			margin-bottom: 15px;
+			line-height: 1.2;
+		}
+	}
+}
+
+section.booking {
+	padding: 50px 10px;
+	text-align: center;
+
+	img {
+		width: 140px;
+		margin-right: 10px;
+	}
+	div.book-table {
+		width: 100%;
+		float: none;
+		margin-right: 0;
+		margin-top: 25px;
+
+		h2 {
+			font-size: 2em;
+		}
+		p {
+			width: 80%;
+			margin: 0 auto;
+		}
+
+		form {
+
+			label {
+				width: 240px;
+				display: inline-block;
+				float: none;
+			}
+
+			input, select {
+				display: inline-block;
+				width: 220px;
+				font-size: 1em;
+			}
+			select {
+				width: 233px;
+				height: 35px;
+			}
+
+			label:nth-child(1), 
+			label:nth-child(3) {
+				margin-left: 0;
+				margin-right: 0;
+			}
+			label:nth-child(4) {
+				margin-bottom: 30px;
+			}
+
+			input[type="submit"] {
+				width: 180px;
+			}
+		}
+	}
+}
+
+footer {
+	padding-bottom: 10px;
+
+	ul {
+
+		li {
+			display: block;
+			margin: 0 auto 30px;
+			width: 80%;
+
+			h4 {
+				font-size: 1.2em;
+			}
+		}
+
+		li.about {
+			width: 80%;
+		}
+
+		li.hours {
+			margin-left: auto; 
+		}
+
+		ul.footer-soc-icons {
+			margin-top: 30px;
+
+			li {
+				width: auto;
+				margin: 0 5px;
+			}
+		}
+	}
+}
+
+} // end media

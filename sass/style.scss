@@ -1,0 +1,16 @@
+$gold: #DD9A00;
+$white: #F4F2F0;
+
+@mixin clearfix() {
+    &:after {
+        content: " ";
+        display: block;
+        clear: both;
+    }
+}
+
+@import 
+	"reset",
+	"layout",
+	"media_phones",
+	"media_tablets";
