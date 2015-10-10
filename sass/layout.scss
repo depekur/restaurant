@@ -62,9 +62,11 @@ section.header {
 				.header-twitter {
 					background: url('../img/restaurant_sprite.png') no-repeat -503px -75px;
 				}
+
 				.header-youtube {
 					background: url('../img/restaurant_sprite.png') no-repeat -540px -75px;
 				}
+
 				.header-facebook {
 					background: url('../img/restaurant_sprite.png') no-repeat -574px -73px;
 				}
@@ -139,9 +141,11 @@ section.just-food {
 				height: 24px;
 			}			
 		}
+
 		p {
 			margin-bottom: 50px;
 		}
+
 		img {
 			width: 180px;
 			margin-right: -65px;
@@ -174,6 +178,7 @@ section.ingredients {
 		h2 {
 			font-size: 2.5em;
 			margin-bottom: 20px;
+
 			&:after {
 				content: '';
 				display: block;
@@ -183,6 +188,7 @@ section.ingredients {
 				height: 24px;
 			}	
 		}
+
 		p {
 			margin-bottom: 30px;
 		}
@@ -230,6 +236,7 @@ section.menu {
 
 		li.menu-part-special {
 			border: 1px solid rgba($gold, 0.3);
+
 			&:before {
 				content: 'Special';
 				display: block;
@@ -254,6 +261,7 @@ section.menu {
 				float: right;
 			}
 		}
+
 		p {
 			text-align: left;
 
@@ -281,6 +289,7 @@ section.reviews {
 		h2 {
 			font-size: 2.5em;
 			margin-bottom: 20px;
+
 			&:after {
 				content: '';
 				display: block;
@@ -290,6 +299,7 @@ section.reviews {
 				height: 24px;
 			}
 		}
+
 		p {
 			font-size: 1.4em;
 			position: relative;
@@ -329,6 +339,7 @@ section.booking {
 			font-size: 2.5em;
 			color: $gold;
 			margin-bottom: 20px;
+
 			&:after {
 				content: '';
 				display: block;
@@ -350,6 +361,7 @@ section.booking {
 				width: 160px;
 				margin-bottom: 15px;
 			}
+
 			input, select {
 				display: block;
 				margin-top: 5px;
@@ -372,6 +384,7 @@ section.booking {
 				margin-left: 10px;
 				margin-right: 35px;
 			}
+
 			label:nth-child(4) {
 				margin-bottom: 40px;
 			}
@@ -380,6 +393,7 @@ section.booking {
 				width: 173px;
 				height: 35px;
 			}
+
 			input[type="submit"] {
 				height: auto;
 				width: 170px;
@@ -389,6 +403,7 @@ section.booking {
 				padding: 7px;
 				border: none;
 				transition: 0.5s;
+
 				&:hover {
 					cursor: pointer;
 					background: rgba($gold, 0.7);
@@ -407,7 +422,6 @@ footer {
 	color: $white;
 	padding: 40px;
 	text-align: center;
-
 
 	ul  {
 
