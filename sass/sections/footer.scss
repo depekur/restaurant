@@ -1,0 +1,73 @@
+footer {
+	background: #121212;
+	color: $white;
+	padding: 55px 0;
+	text-align: center;
+
+	ul  {
+
+		li {
+			vertical-align: top;
+			display: inline-block;
+			margin-right: 95px;
+			width: 14%;
+
+			h4 {
+				font-size: 1.2em;
+				margin-bottom: 15px;
+
+				&:after {
+					content: '';
+					display: block;
+					margin: 15px auto 0;
+					background: url('../img/restaurant_sprite.png') no-repeat -265px -178px;
+					width: 199px;
+					height: 19px;
+				}
+			}
+		}
+
+		li.about {
+			width: 23%;
+		}
+
+		li.hours {
+
+		}
+
+		li.location {
+
+		}
+
+		ul.footer-soc-icons {
+			margin-top: 50px;
+
+			li {
+				display: inline-block;
+				margin: 0 1px;
+
+				a {
+					display: inline-block;
+				}
+
+				.footer-soc-fb {
+					background: url('../img/restaurant_sprite.png') no-repeat -503px -124px;
+					width: 9px;
+					height: 16px;
+				}
+
+				.footer-soc-you {
+					background: url('../img/restaurant_sprite.png') no-repeat -523px -124px;
+					width: 15px;
+					height: 17px;
+				}
+
+				.footer-soc-tw {
+					background: url('../img/restaurant_sprite.png') no-repeat -550px -126px;
+					width: 15px;
+					height: 13px;
+				}
+			}
+		}
+	}
+}

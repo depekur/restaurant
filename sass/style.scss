@@ -1,18 +1,21 @@
 $gold: #DD9A00;
 $white: #F4F2F0;
+$headers-font: 'YesevaOne-Regular';
+$text-font: 'Lato-Regular';
+$nav-font: 'GenBkBasB';
 
-@mixin clearfix() {
-    &:after {
-        content: " ";
-        display: block;
-        clear: both;
-    }
-}
 
 @import 
 	"reset",
-	"layout",
-	"media_phones",
-	"media_large_phones",
-	"media_tablets",
-	"media_retina";
+	"base",
+	"sections/header",
+	"sections/just-food",
+	"sections/ingredients",
+	"sections/menu",
+	"sections/reviews",
+	"sections/booking",
+	"sections/footer",
+	"media/media_phones",
+	"media/media_large_phones",
+	"media/media_tablets",
+	"media/media_retina";

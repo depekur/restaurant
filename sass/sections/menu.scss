@@ -1,0 +1,73 @@
+section.menu {
+	background: url('../img/patt_2.png');
+	padding: 90px 0 25px;
+	text-align: center;
+	vertical-align: top;
+
+	div.menu-part {
+		display: inline-block;
+		width: 27%;
+		margin: 0 5% 25px;
+		vertical-align: top;
+
+
+		h2 {
+			font-size: 1.9em;
+			color: $gold;
+			margin-bottom: 20px;
+
+			&:after {
+				content: '';
+				display: block;
+				margin: 10px auto 0;
+				background: url('../img/restaurant_sprite.png') no-repeat -165px -141px;
+				//background-size: 100px 20px;
+				width: 247px;
+				height: 24px;
+			}	
+		}
+
+		li {
+			margin-bottom: 15px;
+			padding: 5px;
+			position: relative;
+		}
+
+		li.menu-part-special {
+			border: 1px solid rgba($gold, 0.3);
+
+			&:before {
+				content: 'Special';
+				display: block;
+				position: absolute;
+				top: -22px;
+				right: 0;
+				background: rgba($gold, 0.6);
+				color: $white;
+				padding: 3px 7px;
+			}
+		}
+
+		h4 {
+			color: $gold;
+			text-align: left;
+			font-size: 1.4em;
+			padding-bottom: 10px;
+			margin-bottom: 6px;
+			border-bottom: 1px solid rgba($gold, 0.3);
+			span.menu-price {
+				display: block;
+				float: right;
+			}
+		}
+
+		p {
+			text-align: left;
+
+		}
+
+		&:last-child {
+			margin-top: -80px;
+		}
+	}
+}

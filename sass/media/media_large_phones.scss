@@ -1,4 +1,4 @@
-@media only screen and (max-width: 520px) { 
+@media only screen and (min-width: 521px) and (max-width: 810px) { 
 
 section.header {
 	nav {
@@ -15,7 +15,7 @@ section.header {
 
 	h1 {
 		width: 100%;
-		font-size: 3em;
+		font-size: 3.2em;
 	}
 
 	.header-buttons {
@@ -25,22 +25,22 @@ section.header {
 			margin-bottom: 70px;
 
 			button {
-				width: 130px;
+				width: 190px;
 			}
 		}
 	}
 }
 
 section.just-food {
-	padding: 20px;
+	padding: 40px;
 
 	div.just-food-left {
 		width: 100%;
 		float: none;
 
 		h2 {
-			font-size: 1.9em;
-			margin-bottom: 30px;
+			font-size: 2.2em;
+			margin-bottom: 40px;
 		}
 
 		img {
@@ -49,7 +49,7 @@ section.just-food {
 	}
 
 	img.just-food-img {
-			width: 280px;
+			width: 400px;
 			float: none;
 			display: block;
 			margin: 0 auto;
@@ -57,16 +57,16 @@ section.just-food {
 }
 
 section.ingredients {
-	padding: 20px 0;
+	padding: 40px 0;
 
 	div.ingredients-right {
-		width: 95%;
+		width: 75%;
 		float: none;
 		margin: 0 auto;
 		padding: 30px;
 
 		h2 {
-			font-size: 1.9em;
+			font-size: 2.2em;
 		}
 	}
 }
@@ -76,20 +76,20 @@ section.menu {
 
 	div.menu-part {
 		display: block;
-		width: 95%;
-		margin-left: 10px;
+		width: 75%;
+		margin: 0 auto 30px;
 
 		h2 {
 			font-size: 1.6em;
-			margin-bottom: 5px;
+			margin-bottom: 15px;
 		}
 		li {
-			margin-bottom: 7px;
-			padding: 3px;
+			margin-bottom: 12px;
+			padding: 5px;
 		}
 
 		h4 {
-			font-size: 1.1em;
+			font-size: 1.2em;
 			padding-bottom: 4px;
 			margin-bottom: 4px;
 		}
@@ -104,11 +104,11 @@ section.reviews {
 	padding: 40px 0;
 
 	div.reviews-wrap {
-		width: 95%;
+		width: 75%;
 		padding: 40px;
 
 		h2 {
-			font-size: 1.9em;
+			font-size: 2.2em;
 			margin-bottom: 20px; 
 		}
 
@@ -125,13 +125,14 @@ section.booking {
 	text-align: center;
 
 	img {
-		width: 140px;
-		margin-right: 10px;
+		width: 40%;
+		margin-right: 20px;
 	}
 	div.book-table {
-		width: 100%;
+		width: 480px;
 		float: none;
-		margin-right: 0;
+		margin-right: auto;
+		margin-left: auto;
 		margin-top: 25px;
 
 		h2 {
@@ -145,18 +146,18 @@ section.booking {
 		form {
 
 			label {
-				width: 240px;
+				width: 340px;
 				display: inline-block;
 				float: none;
 			}
 
 			input, select {
 				display: inline-block;
-				width: 220px;
+				width: 300px;
 				font-size: 1em;
 			}
 			select {
-				width: 233px;
+				width: 313px;
 				height: 35px;
 			}
 
@@ -183,16 +184,16 @@ footer {
 
 		li {
 			display: block;
-			margin: 0 auto 30px;
-			width: 80%;
+			margin: 0 auto 50px;
+			width: 70%;
 
 			h4 {
-				font-size: 1.2em;
+				font-size: 1.5em;
 			}
 		}
 
 		li.about {
-			width: 80%;
+			width: 70%;
 		}
 
 		li.hours {
@@ -210,4 +211,4 @@ footer {
 	}
 }
 
-} // end media
+}

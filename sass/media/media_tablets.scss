@@ -15,7 +15,7 @@ section.header {
 
 	h1 {
 		width: 100%;
-		font-size: 5em;
+		font-size: 4em;
 	}
 
 	.header-buttons {
@@ -131,7 +131,7 @@ section.booking {
 		margin-right: 20px;
 	}
 	div.book-table {
-		width: 80%;
+		width: 700px;
 		float: none;
 		margin-right: auto;
 		margin-left: auto;
@@ -148,18 +148,18 @@ section.booking {
 		form {
 
 			label {
-				width: 240px;
+				width: 340px;
 				display: inline-block;
 				float: none;
 			}
 
 			input, select {
 				display: inline-block;
-				width: 220px;
+				width: 320px;
 				font-size: 1em;
 			}
 			select {
-				width: 233px;
+				width: 333px;
 				height: 35px;
 			}
 

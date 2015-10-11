@@ -1,4 +1,4 @@
-@media only screen and (min-width: 521px) and (max-width: 810px) { 
+@media only screen and (max-width: 520px) { 
 
 section.header {
 	nav {
@@ -15,7 +15,7 @@ section.header {
 
 	h1 {
 		width: 100%;
-		font-size: 4em;
+		font-size: 2.5em;
 	}
 
 	.header-buttons {
@@ -25,22 +25,22 @@ section.header {
 			margin-bottom: 70px;
 
 			button {
-				width: 190px;
+				width: 130px;
 			}
 		}
 	}
 }
 
 section.just-food {
-	padding: 40px;
+	padding: 30px 20px;
 
 	div.just-food-left {
 		width: 100%;
 		float: none;
 
 		h2 {
-			font-size: 2.5em;
-			margin-bottom: 40px;
+			font-size: 1.5em;
+			margin-bottom: 30px;
 		}
 
 		img {
@@ -49,7 +49,7 @@ section.just-food {
 	}
 
 	img.just-food-img {
-			width: 400px;
+			width: 280px;
 			float: none;
 			display: block;
 			margin: 0 auto;
@@ -57,16 +57,16 @@ section.just-food {
 }
 
 section.ingredients {
-	padding: 40px 0;
+	padding: 30px 0;
 
 	div.ingredients-right {
-		width: 75%;
+		width: 95%;
 		float: none;
 		margin: 0 auto;
 		padding: 30px;
 
 		h2 {
-			font-size: 2.5em;
+			font-size: 1.5em;
 		}
 	}
 }
@@ -76,20 +76,20 @@ section.menu {
 
 	div.menu-part {
 		display: block;
-		width: 75%;
-		margin: 0 auto 30px;
+		width: 95%;
+		margin-left: 10px;
 
 		h2 {
-			font-size: 1.9em;
-			margin-bottom: 15px;
+			font-size: 1.5em;
+			margin-bottom: 5px;
 		}
 		li {
-			margin-bottom: 12px;
-			padding: 5px;
+			margin-bottom: 19px;
+			padding: 3px;
 		}
 
 		h4 {
-			font-size: 1.2em;
+			font-size: 1.1em;
 			padding-bottom: 4px;
 			margin-bottom: 4px;
 		}
@@ -104,16 +104,16 @@ section.reviews {
 	padding: 40px 0;
 
 	div.reviews-wrap {
-		width: 75%;
+		width: 95%;
 		padding: 40px;
 
 		h2 {
-			font-size: 2.5em;
+			font-size: 1.5em;
 			margin-bottom: 20px; 
 		}
 
 		p {
-			font-size: 1.2em;
+			font-size: 1.1em;
 			margin-bottom: 15px;
 			line-height: 1.2;
 		}
@@ -125,18 +125,18 @@ section.booking {
 	text-align: center;
 
 	img {
-		width: 240px;
-		margin-right: 20px;
+		width: 140px;
+		margin-right: 10px;
 	}
 	div.book-table {
-		width: 80%;
+		width: 300px;
 		float: none;
 		margin-right: auto;
 		margin-left: auto;
 		margin-top: 25px;
 
 		h2 {
-			font-size: 2em;
+			font-size: 1.6em;
 		}
 		p {
 			width: 80%;
@@ -184,16 +184,16 @@ footer {
 
 		li {
 			display: block;
-			margin: 0 auto 50px;
-			width: 70%;
+			margin: 0 auto 30px;
+			width: 80%;
 
 			h4 {
-				font-size: 1.8em;
+				font-size: 1.2em;
 			}
 		}
 
 		li.about {
-			width: 70%;
+			width: 80%;
 		}
 
 		li.hours {
@@ -211,4 +211,4 @@ footer {
 	}
 }
 
-}
+} // end media

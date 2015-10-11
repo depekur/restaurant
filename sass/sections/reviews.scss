@@ -1,0 +1,49 @@
+section.reviews {
+	//background: url('../img/bg_3.jpg');
+	padding: 90px 0;
+
+	div.reviews-wrap {
+		width: 48%;
+		margin: 0 auto;
+		padding: 60px;
+		box-sizing: border-box;
+		background: rgba(0,0,0, 0.5);
+		color: $white;
+		text-align: center;
+
+		h2 {
+			font-size: 1.9em;
+			margin-bottom: 20px;
+
+			&:after {
+				content: '';
+				display: block;
+				margin: 10px auto 0;
+				background: url('../img/restaurant_sprite.png') no-repeat 0 -173px;
+				width: 247px;
+				height: 24px;
+			}
+		}
+
+		p {
+			font-size: 1.4em;
+			//font-family: $headers-font;
+			position: relative;
+			margin-bottom: 25px;
+			line-height: 1.7;
+
+			&:before {
+				content: '';
+				display: block;
+				position: absolute;
+				top: -15px;
+				left: -25px;
+				background: url('../img/restaurant_sprite.png') no-repeat -503px -172px;
+				width: 32px;
+				height: 25px;
+			}
+
+			
+		}
+	}
+}

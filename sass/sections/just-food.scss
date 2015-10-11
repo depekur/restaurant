@@ -1,0 +1,42 @@
+section.just-food {
+	background: url('../img/patt_1.png');
+	padding: 80px 18% 45px;
+	
+
+	div.just-food-left {
+		width: 40%;
+		float: left;
+		text-align: center;
+
+		h2 {
+			font-size: 1.9em;
+			color: $gold;
+			margin-bottom: 20px;
+
+			&:after {
+				content: '';
+				display: block;
+				margin: 15px auto 0;
+				background: url('../img/restaurant_sprite.png') no-repeat -165px -141px;
+				width: 247px;
+				height: 24px;
+			}			
+		}
+
+		p {
+			margin-bottom: 50px;
+		}
+
+		img {
+			width: 180px;
+			margin-right: -65px;
+		}
+	}
+
+	img.just-food-img {
+		margin-top: -20px;
+		margin-right: -25px;
+		float: right;
+		width: 500px;
+	}
+}
